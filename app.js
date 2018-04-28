@@ -67,8 +67,4 @@ app.get("/deletesession", (req, res) => {
     res.end()
 })
 
-
-
-
-
 app.listen(3000, () => {console.log("Sv is running")})
