@@ -18,12 +18,10 @@ app.get("/index", (req, res) => {
 })
 
 app.get("/te(st)?hihi", (req, res) => {
-    
     res.send("index" )
 })
 
-app.get("/abc*123", (req, res) => {
-    
+app.get("/abc*123", (req, res) => {    
     res.send("abc" )
 })
 
