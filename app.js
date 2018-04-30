@@ -28,7 +28,6 @@ app.get("/abc*123", (req, res) => {
 })
 
 app.get("/*-:id", (req, res) => {
-    
     res.send("hihihihi " + req.params.id )
 })
 
